@@ -9,6 +9,7 @@ class Student:
     def show(self):
         print('The name of the student is', self.name, ',', 'he is', self.age, 'years old,',
               'his selected tracks are: ', self.tracks, 'and he got a score of', self.score,)
+        
     # To change student name
 
     def change_name(self, new_name):
