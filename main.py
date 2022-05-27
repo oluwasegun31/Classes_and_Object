@@ -11,19 +11,18 @@ class Student:
               'his selected tracks are: ', self.tracks, 'and he got a score of', self.score,)
         
     # To change student name
-
     def change_name(self, new_name):
         self.name = str(new_name)
+        
     # To change student age
-
     def change_age(self, new_age):
         self.age = int(new_age)
+        
     # To add new track to the existing one
-
     def add_track(self, new_tracks):
         self.tracks.append(new_tracks)
+        
     # To change student score
-
     def get_score(self):
         return self.score
 
